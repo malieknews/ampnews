@@ -35,7 +35,7 @@ export default function IndexPage() {
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>Privacy Policy</a>,
+        Cat ipsum dolor <a href={isAmp ? '/privacy?amp=1' : '/privacy'}>Privacy Policy</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -70,7 +70,7 @@ export default function IndexPage() {
         litter all over house, going to catch the red dot today going to catch
         the red dot today. Jump off balcony, onto stranger's head.
       </p>
-      
+      <a href={isAmp ? '/normal?amp=1' : '/normal}>Blog Space</a>
       <p>
         Ignore the squirrels, you'll never catch them anyway missing until
         dinner time, for intrigued by the shower, so i could pee on this if i
