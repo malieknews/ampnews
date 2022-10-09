@@ -17,15 +17,15 @@ export default function PrivacyPage() {
       <h1>The Mobile Privacy</h1>
       <Byline author="Don't Sell My Info" />
       <p>
-        <a href={isAmp ? '/dog' : '/dog?amp=1'}>
+        <a href={isAmp ? '/blog' : '/blog?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
-      <p className="caption">Privacy Policy</p>
+      <p className="caption">Mobile Policy</p>
      
        <p>
         Wafer donut candy soufflé{' '}
-        <a href={isAmp ? '/dog?amp=1' : '/dog'}>Privacy Policy</a>. 
+        <a href={isAmp ? '/blog?amp=1' : '/blog'>Blog</a>. 
         Marzipan gummi bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
