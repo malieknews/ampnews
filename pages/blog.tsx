@@ -13,9 +13,9 @@ export default function BlogPage() {
   return (
     <Layout>
       <Head>
-      <title>The Stop Blog</title>
+      <title>The Money Blog</title>
       </Head>
-      <h1>The Finicial Blog</h1>
+      <h1>The Money Blog</h1>
       <Byline author="Maliek Galant" />
       <p className="caption">Maliek Galant</p>
       <amp-img
@@ -35,7 +35,7 @@ export default function BlogPage() {
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
+        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>Back</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
