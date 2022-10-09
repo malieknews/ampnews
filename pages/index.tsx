@@ -17,7 +17,7 @@ export default function PrivacyPage() {
       <h1>The Mobile Privacy</h1>
       <Byline author="Don't Sell My Info" />
       <p>
-        <a href={isAmp ? '/privacy' : '/privacy?amp=1'}>
+        <a href={isAmp ? '/dog' : '/dog?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
