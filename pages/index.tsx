@@ -47,7 +47,8 @@ export default function IndexPage() {
         owners. Touch water with paw then recoil in horror hide when guests come
         over, and tuxedo cats always looking dapper so has closed eyes but still
         sees you or a nice warm laptop for me to sit on pee in human's bed until
-        he cleans the litter box. Steal the warm chair right after you get up
+        he cleans the <a href={isAmp ? '/about?amp=1' : '/about}>About</a>. 
+        Steal the warm chair right after you get up
         cat not kitten around yet claws in your leg eat all the power cords.
         Lick sellotape curl into a furry donut immediately regret falling into
         bathtub or you call this cat food? and fall asleep on the washing
