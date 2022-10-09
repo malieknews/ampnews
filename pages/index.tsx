@@ -25,7 +25,7 @@ export default function PrivacyPage() {
      
        <p>
         Wafer donut candy soufflé{' '}
-        <a href={isAmp ? '/?amp=1' : '/'}>Privacy Policy</a>. 
+        <a href={isAmp ? '/dog?amp=1' : '/dog'}>Privacy Policy</a>. 
         Marzipan gummi bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
