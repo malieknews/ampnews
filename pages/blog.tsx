@@ -7,15 +7,15 @@ export const config = {
   amp: true,
 }
 
-export default function IndexPage() {
+export default function BlogPage() {
   const isAmp = useAmp()
 
   return (
     <Layout>
       <Head>
-        <title>The Stop Blog</title>
+      <title>The Stop Blog</title>
       </Head>
-      <h1>The Stop Blog</h1>
+      <h1>The Finicial Blog</h1>
       <Byline author="Maliek Galant" />
       <p className="caption">Maliek Galant</p>
       <amp-img
@@ -70,7 +70,23 @@ export default function IndexPage() {
         litter all over house, going to catch the red dot today going to catch
         the red dot today. Jump off balcony, onto stranger's head.
       </p>
-      
+      <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://amp.dev/static/inline-examples/images/mountains.webp"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+        ></amp-img>
+      </amp-img>
+
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
