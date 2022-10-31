@@ -5,10 +5,10 @@ type BylineProps = {
 export default function Byline({ author }: BylineProps) {
   return (
     <>
-      <div className="byline">By {author}</div>
+      <div className="byline">{author}</div>
       <style jsx>{`
         .byline {
-          color: green;
+          color: pink;
           font-weight: bolder;
         }
       `}</style>
