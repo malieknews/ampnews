@@ -1,50 +1,13 @@
-<form>
-        <p>
-          <label for="simple">A simple select box:</label>
-          <select id="simple" name="simple">
-            <option>Banana</option>
-            <option>Cherry</option>
-            <option>Lemon</option>
-          </select>
-        </p>
-        <p>
-            <label for="groups">Select box with option groups:</label>
-            <select id="groups" name="groups">
-            <optgroup label="fruits">
-              <option>Banana</option>
-              <option selected>Cherry</option>
-              <option>Lemon</option>
-            </optgroup>
-            <optgroup label="vegetables">
-              <option>Carrot</option>
-              <option>Eggplant</option>
-              <option>Potato</option>
-            </optgroup>
-          </select>
-        </p>
-        <p>
-            <label for="multi">Select box allowing multiple selections:</label>
-            <select multiple id="multi" name="multi">
-            <option>Banana</option>
-            <option>Cherry</option>
-            <option>Lemon</option>
-          </select>
-        </p>
-        <p>
-            <label for="myFruit">What's your favorite fruit?</label>
-            <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
-            <datalist id="mySuggestion">
-              <option>Apple</option>
-              <option>Banana</option>
-              <option>Blackberry</option>
-              <option>Blueberry</option>
-              <option>Lemon</option>
-              <option>Lychee</option>
-              <option>Peach</option>
-              <option>Pear</option>
-            </datalist>
-        </p>
-        <p>
+type FormProps = {
+  form: string
+}
+
+export default function Form ({ adsense }: Props) {
+  return (
+    <>
+      <div className="form">{adsense}</div>
+      <button type="submit">Submit me!</button>
+      <p>
             <label for="myFruit">What is your favorite fruit? (With fallback)</label>
             <input type="text" id="myFruit" name="fruit" list="fruitList">
             <datalist id="fruitList">   <label for="suggestion">or pick a fruit</label>
@@ -59,8 +22,16 @@
                 <option>Pear</option>
               </select>
             </datalist>
-        </p>
-        <p>
-            <button type="submit">Submit me!</button>
-        </p>
-    </form>
+     </p>
+      <style jsx>{`
+        .p {
+          color: green;
+          font-weight: bolder;
+        }
+      `}</style>
+    </>
+  )
+}
+
+
+
