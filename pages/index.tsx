@@ -75,7 +75,7 @@ export default function BlogPage() {
         width="550"
         height="368"
         layout="responsive"
-        src="https://amp.dev/static/inline-examples/images/mountains.webp"
+        src="https://images.sitepen.com/wp-images/2022/10/Intro-to-HTML-first-Frontend-Frameworks@2x-1024x538.png"
       >
         <amp-img
           alt="Mountains"
@@ -83,7 +83,7 @@ export default function BlogPage() {
           width="550"
           height="368"
           layout="responsive"
-          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+          src="https://images.sitepen.com/wp-images/2022/10/Intro-to-HTML-first-Frontend-Frameworks@2x-1024x538.png"
         ></amp-img>
       </amp-img>
 
